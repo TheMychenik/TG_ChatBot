@@ -1,17 +1,18 @@
 {
   "name": "Bot2main",
   "version": "0.1.0",
-  "description": "",
+  "description": "Telegram chat bot",
+  "private": true,
   "main": "index.js",
+  "homepage": "github.com/TheMychenik/TG_ChatBot",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Alexey Rakhmaninov",
+  "author": "github.com/TheMychenik",
   "license": "ISC",
   "dependencies": {
     "mongodb": "^3.1.13",
     "nodemon": "^1.18.9",
-    "telegraf": "^3.26.0"
+    "telegraf": "^3.26.0",
   }
 }
