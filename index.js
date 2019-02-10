@@ -1,5 +1,5 @@
 const Telegraf = require('telegraf');
-const token = '631962216:AAEIwE6ziBPhl3UcvkO4RKNafPF7XWS2KrA';
+const token = 'Your token here';
 const bot = new Telegraf(token)
 
 bot.start((ctx) => ctx.reply('Здравствуй, ' + ctx.from.first_name + '! Давай знакомиться) Я XippiBot, а так же твой проводник в мир страха и боли'))
